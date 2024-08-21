@@ -40,5 +40,5 @@ TEST(AlertInCelciusTest, AlertInCelciusTest) {
   // Act
   alertInCelcius(farenheit);
   // Assert
-  ASSERT_EQ(alertFailureCount, 0);
+  ASSERT_EQ(alertFailureCount, 1);
 }
